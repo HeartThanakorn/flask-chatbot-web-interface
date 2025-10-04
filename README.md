@@ -6,11 +6,11 @@ The backend receives prompts from the user via the web interface, processes them
 
 ## ✨ Key Features
 
-- [cite_start]**Backend Server**: A simple and robust backend built with Flask to handle API requests[cite: 406].
-- [cite_start]**Chatbot Integration**: Utilizes the `AutoModelForSeq2SeqLM` and `AutoTokenizer` from Hugging Face Transformers to power the conversation[cite: 516, 517].
-- [cite_start]**Web Interface**: A pre-built HTML, CSS, and JavaScript template for a clean chat interface[cite: 585, 591].
-- [cite_start]**API Endpoint**: A `/chatbot` endpoint that accepts POST requests with a JSON payload and returns the bot's response[cite: 531, 577].
-- [cite_start]**CORS Handling**: Includes `flask_cors` to manage Cross-Origin Resource Sharing, allowing the front-end and back-end to communicate smoothly[cite: 495, 501].
+- **Backend Server**: A simple and robust backend built with Flask to handle API requests.
+- **Chatbot Integration**: Utilizes the `AutoModelForSeq2SeqLM` and `AutoTokenizer` from Hugging Face Transformers to power the conversation.
+- **Web Interface**: A pre-built HTML, CSS, and JavaScript template for a clean chat interface.
+- **API Endpoint**: A `/chatbot` endpoint that accepts POST requests with a JSON payload and returns the bot's response.
+- **CORS Handling**: Includes `flask_cors` to manage Cross-Origin Resource Sharing, allowing the front-end and back-end to communicate smoothly.
 
 ## 🚀 Getting Started
 
@@ -38,8 +38,8 @@ Follow these instructions to get the project running on your local machine.
     pip install flask flask_cors transformers==4.38.2 torch==2.2.1
     ```
 
-    - `flask` and `flask_cors` for the web server.
-    - `transformers` and `torch` for the chatbot model.
+  - `flask` and `flask_cors` for the web server.
+  - `transformers` and `torch` for the chatbot model.
 
 3.  **Create the Flask Application (`app.py`):**
     Create a file named `app.py` inside the `LLM_application_chatbot` directory. Copy and paste the final Python code from the "Final version of your flask app" section of the guide into this file. Your application should be able to:
@@ -103,17 +103,17 @@ Follow these instructions to get the project running on your local machine.
     # Or alternatively: python3 app.py
     ```
 
-    [cite_start]You should see output indicating the server is running on `http://127.0.0.1:5000`[cite: 467].
+  You should see output indicating the server is running on `http://127.0.0.1:5000`.
 
 2.  **Access the Web Interface:**
     Open your web browser and go to the following address:
     ```
     [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
     ```
-    [cite_start]You should now see the chatbot web interface and be able to interact with your bot[cite: 802].
+  You should now see the chatbot web interface and be able to interact with your bot.
 
 ## 🛠️ Technologies Used
 
-- [cite_start]**Backend**: Python, Flask [cite: 406]
-- [cite_start]**Machine Learning**: PyTorch, Hugging Face Transformers (`facebook/blenderbot-400M-distill`) [cite: 513, 512, 518]
-- [cite_start]**Frontend**: HTML, CSS, JavaScript [cite: 591-596]
+ - **Backend**: Python, Flask
+ - **Machine Learning**: PyTorch, Hugging Face Transformers (`facebook/blenderbot-400M-distill`)
+ - **Frontend**: HTML, CSS, JavaScript
