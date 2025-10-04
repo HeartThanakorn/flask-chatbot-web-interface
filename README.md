@@ -38,8 +38,8 @@ Follow these instructions to get the project running on your local machine.
     pip install flask flask_cors transformers==4.38.2 torch==2.2.1
     ```
 
-  - `flask` and `flask_cors` for the web server.
-  - `transformers` and `torch` for the chatbot model.
+- `flask` and `flask_cors` for the web server.
+- `transformers` and `torch` for the chatbot model.
 
 3.  **Create the Flask Application (`app.py`):**
     Create a file named `app.py` inside the `LLM_application_chatbot` directory. Copy and paste the final Python code from the "Final version of your flask app" section of the guide into this file. Your application should be able to:
@@ -103,17 +103,17 @@ Follow these instructions to get the project running on your local machine.
     # Or alternatively: python3 app.py
     ```
 
-  You should see output indicating the server is running on `http://127.0.0.1:5000`.
+You should see output indicating the server is running on `http://127.0.0.1:5000`.
 
 2.  **Access the Web Interface:**
     Open your web browser and go to the following address:
     ```
     [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
     ```
-  You should now see the chatbot web interface and be able to interact with your bot.
+    You should now see the chatbot web interface and be able to interact with your bot.
 
 ## 🛠️ Technologies Used
 
- - **Backend**: Python, Flask
- - **Machine Learning**: PyTorch, Hugging Face Transformers (`facebook/blenderbot-400M-distill`)
- - **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python, Flask
+- **Machine Learning**: PyTorch, Hugging Face Transformers (`facebook/blenderbot-400M-distill`)
+- **Frontend**: HTML, CSS, JavaScript
